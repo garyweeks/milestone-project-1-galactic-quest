@@ -57,6 +57,19 @@ header a {
   border-bottom: 1px solid white; 
 }   
 
+/* Navigation Styles */
+
+nav {
+  position: absolute;
+  background-color: #4a90e2;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 0 2px lightblue;
+  display: none;    
+}
+
+/* main content styles */
 
 main {
   flex: 1 0 auto;

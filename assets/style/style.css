@@ -90,6 +90,36 @@ nav {
     font-size: 2rem;
 }
 
+/* Main content */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 79px;
+}
+
+/* Hero section */
+
+#hero-image {
+    height: 720px;
+    width: 100%;
+    padding-top: 79px; /* Adjust for fixed header height */
+    background: url("../images/galactic-quest-hero.webp") no-repeat center center/cover;
+    position: relative
+}
+
+#hero-text {
+    background-color: rgba(172,204,231, 0.7)  /* Semi-transparent background */;
+    font-size: 130%;
+    color: rgb(58, 58, 58);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    position: absolute;
+    min-height: 200px;
+    width: 50%;
+    bottom: 30%;
+} 
+
 /* Footer */
 footer {
     background-color: rgb(172, 204, 231);

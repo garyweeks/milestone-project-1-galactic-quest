@@ -1,7 +1,6 @@
 /* Importing Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=PT+Mono&display=swap");
 
-/* Overrides Browser Defaults */
 * {
     padding: 0;
     margin: 0;
@@ -90,6 +89,7 @@ nav {
     font-size: 2rem;
 }
 
+
 /* Main content */
 main {
     /* Make main element take up any surplus space to push footer down */
@@ -108,7 +108,7 @@ main {
 }
 
 #hero-text {
-    background-color: rgba(172,204,231, 0.7);  /* Semi-transparent background */
+    background-color: rgba(172,204,231, 0.7)  /* Semi-transparent background */;
     font-size: 130%;
     color: rgb(58, 58, 58);
     padding-top: 40px;
@@ -163,6 +163,57 @@ main {
     }
     
 
+/* Registration Page Styling */
+
+.form-container {
+    position: absolute;
+    width: 500px;
+    padding: 25px;
+    background-color: rgb(153, 196, 232);
+    box-shadow: 0px 2px 4px #3a3a3a;
+    border-radius: 8px;
+    margin-top: 130px;
+    margin-left: 750px;
+    
+    
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 20px;
+}
+
+.form-container p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #3a3a3a;
+}
+
+.form-container .form {
+    margin-top: 20px;
+}
+
+.form .input-box {
+    width: 100% ;
+    margin-top: 20px;
+}
+
+.input-box label {
+    color:rgb(58, 58, 58);
+}
+
+.form .input-box input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+}
+
 /* Footer */
 footer {
     background-color: rgb(172, 204, 231);
@@ -182,6 +233,8 @@ footer {
     padding: 5%;
     
 }
+
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -213,12 +266,11 @@ footer {
     }
 
     /* Main content */
-        main {
-            /* Push main content down to accommodate larger header */
-            margin-top: 71px;
-        }
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 71px;
     }
-
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -228,6 +280,5 @@ footer {
 
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 71px; 
-    }
+        margin-top: 71px;
 }

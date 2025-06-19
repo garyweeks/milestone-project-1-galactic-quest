@@ -89,3 +89,23 @@ nav {
 .nav-toggle-label   {
     font-size: 2rem;
 }
+
+/* Footer */
+footer {
+    background-color: rgb(172, 204, 231);
+}
+
+.social-links {
+    text-align: center;
+    padding: 20px 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: #3a3a3a;
+}
+
+.social-links i {
+    font-size: 150%;
+    padding: 5%;
+    
+}

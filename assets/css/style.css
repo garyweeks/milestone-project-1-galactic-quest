@@ -116,7 +116,7 @@ main {
     padding-left: 10px;
     position: absolute;
     min-height: 200px;
-    width: 30% auto;
+    width: 50%;
     bottom: 30%;
 } 
 
@@ -193,7 +193,7 @@ main {
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.5rem;
-    font-weight: 20px;
+    
 }
 
 .form-container p {
@@ -282,7 +282,6 @@ footer {
             margin-top: 71px;
         }
     }
-}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {

@@ -7,3 +7,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Manrope', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'PT Mono', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+p   {
+    color: #3a3a3a;
+}

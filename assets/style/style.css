@@ -28,3 +28,64 @@ h1, h2, h3 {
 p   {
     color: #3a3a3a;
 }
+
+/* Header */
+header {
+    background-color: rgb(153, 196, 232);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar Styles with dropdown toggle */
+
+nav {
+    position: absolute;
+    background-color: rgb(153, 196, 232);
+    padding: 0 1rem;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* navbar checked state */
+
+#nav-toggle:checked ~ nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label   {
+    font-size: 2rem;
+}

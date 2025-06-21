@@ -263,6 +263,42 @@ main {
   background-color: rgba(172, 204, 231, 0.9);
 }
 
+/*Thank you page styles */
+
+.thank-you-message {
+  text-align: center;
+}
+
+.thank-you-message h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #050336;
+}
+
+.thank-you-message p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #3a3a3a;
+}
+
+.thank-you-message .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: rgba(153, 196, 232, 0.8);
+  color: #050336;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.thank-you-message .btn:hover {
+  background-color: rgba(172, 204, 231, 1);
+}
+
+
 /* Footer */
 footer {
   background-color: rgb(172, 204, 231);

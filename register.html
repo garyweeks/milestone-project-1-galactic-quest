@@ -11,9 +11,23 @@
 
     <!-- Favicon links -->
 
-    <link rel="icon" type="image/png" sizes="128x128" href="/assets/favicon/space.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/space1.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/space2.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="128x128"
+      href="/assets/favicon/space.png">
+    
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon/space1.png">
+    
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/space2.png">
 
     <!-- Custom style sheet  -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -25,7 +39,7 @@
       <a href="index.html">
         <h1 id="logo">Galactic Quest</h1>
       </a>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <input type="checkbox" id="nav-toggle" name="nav-toggle">
       <label for="nav-toggle" class="nav-toggle-label"
         ><i class="fa-solid fa-bars"></i
       ></label>
@@ -41,24 +55,35 @@
     <!-- Main Content -->
     <main class="register-page">
       <section class="form-container">
-        <h1>Register for the Galactic Quest Newsletter</h1>
+        <h2>Register for the Galactic Quest Newsletter</h2>
         <p>
           Keep up to date with all the latest community and game development
           news by signing up to our newsletter!
         </p>
-        <form action="#" class="form">
+        <form action="thankyou.html" class="form" method="get">
           <div class="input-box">
             <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter full name" required>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter full name"
+              required
+            >
           </div>
 
           <div class="input-box">
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="Enter email address" required>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter email address"
+              required
+            >
           </div>
-          <button class="btn">
-          <a href="thankyou.html">Submit</a>
-          </button>
+
+          <button class="btn" type="submit">Submit</button>
         </form>
       </section>
     </main>

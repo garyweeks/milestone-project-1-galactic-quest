@@ -135,21 +135,25 @@ main {
 /* About Section */
 
 .about-section {
-  background-color: #0e0e4f;
+  background-color: rgb(150, 188, 220);
   padding: 4rem 0;
   text-align: center;
+  
 }
 
 .about-section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #ffffff;
+  color: rgb(58, 58, 58);
+  justify-content: center
 }
 
 .about-section p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #dcdcdc;
+  color: rgb(58, 58, 58);;
+  text-align: center;
+  padding: 50px 20px;
 }
 
 /* Feature page styles */
@@ -210,7 +214,7 @@ main {
   border-radius: 8px;
 }
 
-.form-container h1 {
+.form-container h2 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 1.5rem;
@@ -302,6 +306,7 @@ main {
 /* Footer */
 footer {
   background-color: rgb(172, 204, 231);
+box-shadow: 0 2px 2px #3a3a3a;
 }
 
 .social-links {

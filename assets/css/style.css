@@ -133,6 +133,10 @@ main {
   transition: background-color 0.3s ease;
 }
 
+button:hover {
+  background-color: rgba(172, 204, 231, 0.9);
+}
+
 /* About Section */
 
 .about-section {
@@ -396,5 +400,10 @@ main {
   main {
     /* Push main content down to accommodate larger header */
     margin-top: 71px;
+    
+  }
+
+  .about-section {
+    padding: 20px 50px;
   }
 }

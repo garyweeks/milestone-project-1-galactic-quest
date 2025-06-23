@@ -138,20 +138,25 @@ main {
   background-color: rgb(150, 188, 220);
   padding: 4rem 0;
   text-align: center;
-  
+  width:60%;
+  justify-content: center;
+  margin: 20px auto;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 4px #3a3a3a;
+  border-radius: 8px;
 }
 
 .about-section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: rgb(58, 58, 58);
-  justify-content: center
+  justify-content: center;
 }
 
 .about-section p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: rgb(58, 58, 58);;
+  color: rgb(58, 58, 58);
   text-align: center;
   padding: 50px 20px;
 }
@@ -196,8 +201,7 @@ main {
 /* Registration Page Styling */
 
 .register-page {
-  background: url("../images/galactic-quest-background-2.webp") no-repeat center
-    center/cover;
+  background: url("../images/background-2.webp") no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,11 +306,10 @@ main {
   background-color: rgba(172, 204, 231, 1);
 }
 
-
 /* Footer */
 footer {
   background-color: rgb(172, 204, 231);
-box-shadow: 0 2px 2px #3a3a3a;
+  box-shadow: 0 2px 2px #3a3a3a;
 }
 
 .social-links {
@@ -364,7 +367,6 @@ box-shadow: 0 2px 2px #3a3a3a;
     margin: 0 0.5rem;
   }
 
-   
   .about-section h2 {
     font-size: 1.5rem;
   }
@@ -378,14 +380,13 @@ box-shadow: 0 2px 2px #3a3a3a;
     font-size: 1rem;
     padding: 0.75rem 1rem;
   }
-} 
+}
 
-  /* Main content */
-  main {
-    /* Push main content down to accommodate larger header */
-    margin-top: 71px;
-  }
-
+/* Main content */
+main {
+  /* Push main content down to accommodate larger header */
+  margin-top: 71px;
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {

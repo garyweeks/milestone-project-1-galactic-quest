@@ -403,6 +403,11 @@ main {
     
   }
 
+  #hero-text {
+    width: 50%;
+    
+  }
+
   .about-section {
     padding: 20px 50px;
   }

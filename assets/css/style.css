@@ -141,10 +141,11 @@ button:hover {
 
 .about-section {
   background-color: rgb(150, 188, 220);
-  padding: 50px 20px;
-  display: flex;
-  flex-direction: column;
+  padding: 50px 10px;
+  border: #3a3a3a 1px solid;
   box-shadow: 0 2px 2px #3a3a3a;
+
+ 
 }
   
 
@@ -162,12 +163,13 @@ button:hover {
   text-align: center;
   padding: 50px 20px;
   margin-bottom: 1rem;
-}
+  }
 
 /* Feature page styles */
 
 .card-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 50px;

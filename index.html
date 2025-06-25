@@ -43,14 +43,15 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <body class="d.flex flex-column min-vh-100">
+  <body class="d-flex flex-column">
     <!-- Navigation Bar from Bootstrap -->
-    <nav class="navbar navbar-expand-lg  navbar-bg-color">
+    <nav class="navbar navbar-expand-lg navbar-bg-color">
       <div class="container-fluid">
         <img
           src="assets/images/game-logo-head.webp"
           alt="Galactic Quest Logo"
-          class="logo">
+          class="logo"
+        />
         <a class="navbar-brand" href="index.html">Galactic Quest</a>
         <button
           class="navbar-toggler"
@@ -66,7 +67,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="features.html">Features</a>
@@ -83,27 +86,31 @@
     <main>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-xl-6">
-          <img
-            src="assets/images/galactic-quest-hero.webp"
-            alt="Galactic Quest Game Screenshot"
-            class="card-img-top"
+          <div
+            class="col-12 col-xl-6 d-flex justify-content-center align-items-center"
           >
+            <img
+              src="assets/images/galactic-quest-hero-no-text.webp"
+              alt="Galactic Quest Game Screenshot"
+              class="img-fluid"
+            />
           </div>
-          <div class="col-12 col-xl-6">
-            <h2>Galactic Quest</h2>
-            <p class="card-text">
+          <div class="col-12 col-xl-6 navbar-bg-color about-section">
+            <h2 class="display-3 text-center ">Galactic Quest</h2>
+            <p class="lead text-center">
               Embark on an epic journey through the cosmos in this immersive
               sci-fi RPG. Explore alien worlds, engage in space battles, and
               uncover the mysteries of the universe.
             </p>
-            <a href="register.html" class="btn btn-primary">Join the Quest</a>
-          </div>
+            <a href="register.html" class="btn btn-primary text-center"
+              >Join the Quest</a
+            >
           </div>
         </div>
-      <div class="container">
+      </div>
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-6 col-md-6 col-sm-12 about-section">
+          <div class="col-xl-3 col-12 about-section">
             <h2>About the Game</h2>
             <p>
               Galactic Quest is an expansive sci-fi adventure game that takes
@@ -117,7 +124,42 @@
               Check out the features!
             </button>
           </div>
-          <div class="col-md-6 col-sm-12 about-section">
+          <div class="col-xl-3 col-12 about-section">
+            <h2>About Us</h2>
+            <br />
+            <p>
+              At Galactic Quest Studios, we’re a passionate team of
+              storytellers, designers, and dreamers with one mission: to create
+              immersive worlds that ignite the imagination. We believe games
+              should be more than just entertainment — they should be adventures
+              that stay with you long after you log off. Galactic Quest is the
+              result of years of development, inspired by our love for classic
+              RPGs, rich science fiction lore, and deep player-driven
+              narratives. Every choice you make in Galactic Quest helps shape a
+              living, breathing galaxy filled with mystery, danger, and
+              discovery. Our studio is proudly independent, built on the
+              foundation of creativity, community, and inclusivity. We
+              collaborate with players, modders, and fellow creators to keep
+              pushing the boundaries of what a sci-fi RPG can be. This is just
+              the beginning of the journey. Welcome aboard. Your quest starts
+              here.
+            </p>
+          </div>
+          <div class="col-xl-3 col-12 about-section">
+            <h2>About the Game</h2>
+            <p>
+              Galactic Quest is an expansive sci-fi adventure game that takes
+              you on a journey through a vast universe filled with alien
+              species, ancient ruins, and galactic wonders. Explore handcrafted
+              story hubs and procedurally generated planets, engage in epic
+              space battles, and uncover the mysteries of the cosmos.
+            </p>
+            <br />
+            <button class="btn" onclick="location.href='features.html';">
+              Check out the features!
+            </button>
+          </div>
+          <div class="col-xl-3 col-12 about-section">
             <h2>About Us</h2>
             <br />
             <p>

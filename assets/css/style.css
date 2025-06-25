@@ -33,8 +33,12 @@ p {
   background-color: rgb(172, 204, 231);
 }
 
-  /* Hero section */
+/* Hero section */
 
+.hero-image {
+  width: 100%;
+  height: auto;
+}
 
 /* About Section */
 

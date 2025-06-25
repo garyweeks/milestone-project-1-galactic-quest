@@ -43,9 +43,9 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <body>
+  <body class="d.flex flex-column min-vh-100">
     <!-- Navigation Bar from Bootstrap -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg  navbar-bg-color">
       <div class="container-fluid">
         <img
           src="assets/images/game-logo-head.webp"
@@ -66,7 +66,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="features.html">Features</a>
@@ -81,20 +81,29 @@
 
     <!-- Main Content -->
     <main>
-      <section id="hero-image">
-        <div id="hero-text" class="container">
-          <h2>Welcome to Galactic Quest</h2>
-          <br />
-          <h3>Embark on an interstellar adventure!</h3>
-          <br />
-          <button class="btn" onclick="location.href='register.html';">
-            Get the newsletter!
-          </button>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-xl-6">
+          <img
+            src="assets/images/galactic-quest-hero.webp"
+            alt="Galactic Quest Game Screenshot"
+            class="card-img-top"
+          >
+          </div>
+          <div class="col-12 col-xl-6">
+            <h2>Galactic Quest</h2>
+            <p class="card-text">
+              Embark on an epic journey through the cosmos in this immersive
+              sci-fi RPG. Explore alien worlds, engage in space battles, and
+              uncover the mysteries of the universe.
+            </p>
+            <a href="register.html" class="btn btn-primary">Join the Quest</a>
+          </div>
+          </div>
         </div>
-      </section>
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-6 col-sm-12 about-section">
+        <div class="row">
+          <div class="col-6 col-md-6 col-sm-12 about-section">
             <h2>About the Game</h2>
             <p>
               Galactic Quest is an expansive sci-fi adventure game that takes

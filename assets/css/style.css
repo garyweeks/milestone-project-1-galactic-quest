@@ -33,10 +33,17 @@ p {
   background-color: rgb(172, 204, 231);
 }
 
-/* Hero section */
+/* carousel section */
 
 .carousel-img {
   height: 100vh;
+}
+
+/* responsive video player */
+
+video {
+  max-width: 100%;
+  height: auto;
 }
 
 /* About Section */
@@ -46,6 +53,8 @@ p {
   padding: 50px 10px;
   border: #3a3a3a 1px solid;
   box-shadow: 0 2px 2px #3a3a3a;
+  border-radius: 8px;
+  margin: 0,8rem;
 
  
 }

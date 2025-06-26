@@ -35,9 +35,8 @@ p {
 
 /* Hero section */
 
-.hero-image {
-  width: 100%;
-  height: auto;
+.carousel-img {
+  height: 100vh;
 }
 
 /* About Section */
@@ -233,4 +232,3 @@ footer {
   font-size: 150%;
   padding: 5%;
 }
-

@@ -86,31 +86,70 @@
     <main>
       <div class="container-fluid">
         <div class="row">
-          <div
-            class="col-12 col-xl-6 d-flex justify-content-center align-items-center"
-          >
-            <img
-              src="assets/images/galactic-quest-hero-no-text.webp"
-              alt="Galactic Quest Game Screenshot"
-              class="img-fluid"
-            />
-          </div>
-          <div class="col-12 col-xl-6 navbar-bg-color about-section">
-            <h2 class="display-3 text-center ">Galactic Quest</h2>
-            <p class="lead text-center">
-              Embark on an epic journey through the cosmos in this immersive
-              sci-fi RPG. Explore alien worlds, engage in space battles, and
-              uncover the mysteries of the universe.
-            </p>
-            <a href="register.html" class="btn btn-primary text-center"
-              >Join the Quest</a
+          <div id="carouselExampleIndicators" class="carousel slide col-12 ">            
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/galactic-carousel.webp" class="d-block w-100" alt="spaceship flying towards nebula" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/galactic-carousel-1.webp" class="d-block w-100" alt="man looking out onto a desert landscape with the sun beaming on him" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/galactic-carousel-2.webp" class="d-block w-100" alt="spaceship coming into land on a panetal city" />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
             >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-        </div>
+         </div>
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xl-3 col-12 about-section">
+          <div class="col-xl-3 col-12 col-md-6 about-section">
             <h2>About the Game</h2>
             <p>
               Galactic Quest is an expansive sci-fi adventure game that takes
@@ -124,7 +163,7 @@
               Check out the features!
             </button>
           </div>
-          <div class="col-xl-3 col-12 about-section">
+          <div class="col-xl-3 col-12 col-md-6 about-section">
             <h2>About Us</h2>
             <br />
             <p>
@@ -145,7 +184,7 @@
               here.
             </p>
           </div>
-          <div class="col-xl-3 col-12 about-section">
+          <div class="col-xl-3 col-12 col-md-6 about-section">
             <h2>About the Game</h2>
             <p>
               Galactic Quest is an expansive sci-fi adventure game that takes
@@ -159,7 +198,7 @@
               Check out the features!
             </button>
           </div>
-          <div class="col-xl-3 col-12 about-section">
+          <div class="col-xl-3 col-12 col-md-6 about-section">
             <h2>About Us</h2>
             <br />
             <p>

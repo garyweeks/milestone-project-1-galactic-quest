@@ -23,6 +23,13 @@ p {
   color: #3a3a3a;
 }
 
+.image {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  
+}
+
 /* Navbar Stlyes */
 
 .logo {
@@ -30,32 +37,29 @@ p {
 }
 
 .navbar-bg-color {
-  background-color: rgb(172, 204, 231);
+  background-color: rgb(150, 188, 220);
 }
 
 /* carousel section */
 
-.carousel-img {
-  height: 100vh;
-}
 
 /* responsive video player */
 
 video {
   max-width: 100%;
   height: auto;
-  margin-top: 10px;
+  margin-top: 2,5rem;
 }
 
 /* About Section */
 
 .about-section {
-  background-color: rgb(150, 188, 220);
-  padding: 50px 10px;
+  background-color: rgb(172, 204, 231);
+  padding: 10px;
   border: #3a3a3a 1px solid;
   box-shadow: 0 2px 2px #3a3a3a;
   border-radius: 8px;
-  margin: 0,8rem;
+  
 
  
 }
@@ -225,7 +229,7 @@ video {
 
 /* Footer */
 footer {
-  background-color: rgb(172, 204, 231);
+  background-color: rgb(150, 188, 220);
   box-shadow: 0 2px 2px #3a3a3a;
 }
 

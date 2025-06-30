@@ -6,6 +6,9 @@ body {
   /* Generic project styles */
   color: #3a3a3a;
   font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -15,7 +18,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 p {
@@ -63,6 +66,7 @@ p {
   background-color: rgb(153, 196, 232);
   text-align: center;
   margin-bottom: 50px;
+
 }
 
 .card-container {
@@ -74,7 +78,8 @@ p {
 }
 
 .card {
-  width: 500px;
+  width: 100%; /* Take full width of Bootstrap column */
+  max-width: 700px;
   background-color: rgb(153, 196, 232);
   border-radius: 8px;
   overflow: hidden;
@@ -241,4 +246,11 @@ footer {
 .social-links i {
   font-size: 150%;
   padding: 5%;
+}
+
+@media (min-width: 1440px) {
+  .card.col-xl-3 {
+    flex: 0 0 45%;
+    max-width: 20%;
+  }
 }

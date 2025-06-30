@@ -73,7 +73,13 @@ video {
 
 /* Gallery Section */
 
-
+.gallery-item {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 10px
+}
 
 /* About Section */
 
@@ -106,7 +112,7 @@ video {
   margin-bottom: 1rem;
   }
 
-/* Feature page styles */
+/* Feature styles */
 
 .card-container {
   display: flex;

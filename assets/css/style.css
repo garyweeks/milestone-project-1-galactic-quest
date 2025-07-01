@@ -40,7 +40,7 @@ p {
   background-color: #e8cdea;
 }
 
-/* Navbar Stlyes */
+/* Navbar Stlyes (referenced from Code Institute) */
 
 .logo {
   padding: 10px;
@@ -66,7 +66,7 @@ p {
   margin-top: 20px;
 }
 
-/* Features and feature card styles */
+/* Features and feature card styles (referenced from Youtube channel */
 
 .feature {
   background-color: #e8cdea;
@@ -125,7 +125,7 @@ video {
   margin: 10px;
 }
 
-/* Registration Page Styling */
+/* Registration Page Styling (referenced from youtube channel) */
 
 .register-page {
   display: flex;
@@ -197,7 +197,7 @@ video {
   background-color: #e8cdea;
 }
 
-/*Thank you page styles */
+/*Thank you page styles  (referenced from yotube video) */
 
 .thank-you-message {
   text-align: center;
@@ -232,7 +232,7 @@ video {
   background-color: #e8cdea;
 }
 
-/* Footer */
+/* Footer (referenced from Code Institute Love Running module) */
 footer {
   background-color: #d8e6f1;
   box-shadow: 0 2px 2px #3a3a3a;
